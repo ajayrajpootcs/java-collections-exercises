@@ -1,0 +1,13 @@
+1. PriorityQueue<String> pq = new PriorityQueue<>(Comparator.reverseOrder()); -> TO convert Min Heap to Max Heap
+
+2. pq.offer(element) -> To add the element in pq
+
+3. pq.size() -> Returns Total No of element in pq
+
+4. pq.peek() -> Return(Retrieve) First element
+
+5. pq.poll() -> Retrieve And Remove First element
+
+6. pq.toString -> Return Priority Queue element to string representations
+
+

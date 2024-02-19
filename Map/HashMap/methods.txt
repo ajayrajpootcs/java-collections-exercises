@@ -1,0 +1,26 @@
+1. hm.put(K,V) -> To Put Key And Value into The HashMap
+
+2. hm.get(Key) -> Return The Value of Given Key.
+
+3. hm.entrySet() -> used to create a set out of the same elements contained in the hash map. It basically returns a set view of the hash map or we can create a new set and store the map elements into them
+
+4. Map.Entry -> Map.Entry interface in Java provides certain methods to access the entry in the Map. By gaining access to the entry of the Map we can easily manipulate them. Map.Entry is a generic and is defined in the java.util package 
+        Methods By Map.Entry:
+                1. x.getkey() -> Return Keys
+                2. x.getValue() -> Return Values
+                3. x.setValuue() -> setValues into All Keys If You are using in For_each loop
+                4. x.hashCode() -> Return the int hashCode Value.
+
+5. hm.size() -> Return The Size of HashMap
+
+6. hm2.putAll(hm) -> To Add All key Value (Map-Entries) into another HashMap
+
+7. hm.isEmpty() -> Return Boolean That Map is Empty or Not
+
+8. hm.containsKey(Key) -> Return Boolean(T/F) if Contains Key or Not in HashMap
+
+9. hm.containsValue(Value) -> Return Boolean(T/F) if Contains Value or Not in HashMap
+
+10. hm.keySet() -> Return KeySet of The Given HashMap
+
+11. hm.values() -> Return All The Value Present in the HashMap

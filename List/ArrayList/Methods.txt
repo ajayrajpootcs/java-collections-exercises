@@ -1,0 +1,60 @@
+1. add() -> To add Element from Last . Returns True .
+
+2. add(index, element) -> To add element at The specified index . It does shifting while adding element at the specified index and Return IndexOutOfBoundException . Returns void
+
+3. set(index, element) -> To replace specific element by its given index . 
+     Returns the element previously at the specified position
+
+4. get(index) -> Returns The Element from given index .
+
+5. remove(index) -> To remove specific element from give index . 
+     Returns Removed Element . 
+
+6. remove(obj) -> To remove specific given Object/Element . 
+     Returns True if Element Present
+
+7. removeIf() ->  To removes the elements of the ArrayList that satisfies the given predicate filter.
+            Ex:- Predicate<Integer> pr = a -> (a % 2 == 0);
+     Returns True if satisfies Given Conditions .
+
+8. contains(obj) -> To Search  wheather an Element Present in the ArrayList or not . 
+    Return true if Predicate else False .
+
+9. containsAll(collection) -> To Search  wheather an collection Present in the ArrayList or not .
+     Return true if Predicate else False .
+
+10. sort(null) -> To sort ArrayList in The ascending Order .
+
+11. Collections.copy(destination , source) -> To Copy source(ArrayList) into destination (ArrayList). 
+
+12 . Collections.sor(collection , Collections.reverseOrder()) -> To sort ArrayList in reverseOrder.
+
+13. Collections.shuffle(collection) -> To shuffle element of ArrayList
+
+     ---------------------
+    | Where al = ArrayList|
+     ---------------------
+
+14. al.subList(fromIndex,toIndex) -> To create subList from Given specific index .
+
+15. Collections.swap(al,i,j) -> Swap elements of ArrayList. 
+
+16. al.addAll(al2) -> To insert any collectionin the specific ArrayList 
+
+17. Collections.addAll(al , Elements->"blue","Red") -> To Add Some specific elements in the ArrayList
+
+18. al.clone() -> Returns the new cloned ArrayList
+
+19. al.clear() -> it will remove all Elements From from al(ArrayList)
+
+20. al.removeAll(al or al2) -> To remove Specific arrayList's Element From Given arrayList(al)
+
+21. [] -> Empty Not null
+
+22. al.trimToSize() -> the trimToSize() method trims the capacity of an ArrayList instance to the list's 
+               current size. This method can be used to minimize the storage of an ArrayList instance. 
+               he trimToSize() method removes unassigned space in the internal array and changes the capacity of the arraylist to equal the number of elements in the arraylist. This operation is not visible to the user. 
+
+23.  al.ensureCapacity(6) -> It will Increase The capacity To 6 it will be min-capacity. 
+
+

@@ -1,0 +1,5 @@
+1. hs.toArray(arr) -> To convert HashSet Into Simple Array
+
+2. TreeSet<String> ts = new TreeSet<>(hs) -> To convert a hash set to a tree set.
+
+3. hs.retainAll(hs2) -> Will Return all Elements That same in hs2

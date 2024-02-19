@@ -1,0 +1,41 @@
+1. tm.containsKey(Key) -> Return T/F if TreeMap Contains The Given Key
+
+2. tm.containsValue(value) -> Return T/F if TreeMap Contains The Given value
+
+3. tm.firstEntry() -> Return firstEntry
+
+4. tm.lastEntry() -> Return lastEntry
+
+5. tm.firstKey()  -> Return firstKey
+
+6. tm.lastKey()  -> Return lastKey
+
+7. tm.floorEntry(key) -> Return Last less or equal value than the entered value.
+
+8. tm.floorEntry(key) -> an entry with the greatest key less than or equal to key, or null if there is no such key
+
+9. tm.headMap(30) -> to get the portion of a map whose keys are strictly less than a given key.{10=Red, 20=Green, 25=Dark}
+
+10. tm.headMap(30, true) -> a view of the portion of this map whose keys are less than (or equal to, if inclusive is true) toKey . {10=Red, 20=Green, 25=Dark, 40=Black}
+
+11. tm.higherEntry(key) -> an entry with the least key greater than key, or null if there is no such key
+
+12. tm.lowerEntry(key) -> an entry with the greatest key less than key, or null if there is no such key
+
+13. tm.navigableKeySet() -> a navigable set view of the keys in this map(All Keys in Set)
+
+14. tm.pollFirstEntry() -> the removed first entry of this map, or null if this map is empty (least Key)
+
+15. tm.pollLastEntry() -> the removed last entry of this map, or null if this map is empty(greatest Key)
+
+16. tm.subMap(25, 50) -> a view of the portion of this map whose keys range from fromKey, inclusive, to toKey, exclusive
+
+17. tm.subMap(25, true, 50, true) -> a view of the portion of this map whose keys range from fromKey to toKey 
+
+18. tm.tailMap(key) -> a view of the portion of this map whose keys are greater than or equal to fromKey
+
+19. tm.tailMap(40, false) -> a view of the portion of this map whose keys are greater than (or equal to, if inclusive is true) fromKey
+
+20. tm.ceilingKey(key) -> the least key greater than or equal to key, or null if there is no such key
+
+21. tm.ceilingEntry(key) -> an entry with the least key greater than or equal to key, or null if there is no such key

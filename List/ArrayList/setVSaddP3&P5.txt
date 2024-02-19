@@ -1,0 +1,33 @@
+ArrayList set() Vs. add()
+
+The syntax of the add() and set() method looks quite similar.
+
+// syntax of add()
+arraylist.add(int index, E element)
+
+// syntax of set()
+arraylist.set(int index, E element)
+And, both the methods are adding a new element to the arraylist. This is why some people consider both methods similar.
+
+However, there is a major difference between them.
+
+The set() method adds a new element at the specified position by replacing the older element at that position.
+The add() method adds a new element at the specified position by shifting the older element towards the right position.
+Example:
+        ArrayList<String> list = new ArrayList<String>();
+
+        list.add("a");
+        list.add(1, "b");
+        System.out.println(list);
+
+        list.set(0, "c");
+        System.out.println(list);
+
+        list.add(0, "d");
+        System.out.println(list);
+        ---------------Output -------------------------------------
+        [a, b]
+
+        [c, b]
+
+        [d, c, b]

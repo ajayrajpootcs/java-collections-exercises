@@ -1,0 +1,20 @@
+1. ts.first() -> To get the first element of TS
+
+2. ts.last() -> To get the last element of TS
+
+3. TreeSet<Integer> headset = (TreeSet)ts.headSet(7) -> Return less than 7 headElements 7-1=6
+
+4. ts.ceiling(element) -> to return the least element in this set greater than or equal to the given element, or null if there is no such element.
+
+5. ts.pollFirst() -> Return and Remove 1st element.
+
+6. ts.pollLast() -> Return and Remove last element
+
+7. ts.floor(44) -> it returns the equal or closest least element of the specified element from the set, or null there is no such element.
+
+8. ts.headSet(6) -> Return 6-1 =5 elements .
+
+9. ts.higher(45) -> It returns the closest greatest element of the specified element from the set, or null there is no such element.
+
+10. ts.lower(40) -> It returns the closest least element of the specified element from the set, or null there is no such element.
+

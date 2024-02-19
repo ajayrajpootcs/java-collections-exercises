@@ -1,0 +1,59 @@
+1. Iterator<String> itr = ll.listIterator(2) -> it will Start iterating from index 2 .
+
+2. Iterator<String> itr = ll.descendingIterator()-> To Start iterating in ReverseOrder .
+
+    ------------------------
+    | Where ll = LinkedList |
+    ------------------------
+3. ll.addFirst(element) -> Add Element to the first Position(index 0th) .
+
+4. ll.addLast(element) -> Add Element to the Last Position(index nth) .
+
+5. ll.offer(element) -> To Add Element From Last .
+
+6. ll.offerFirst(element) -> To Add Element to the first Position(index 0th) .
+
+7. ll.offerLast(element) -> To Add Element to the last Position(index nth) .
+        Note :- Since LinkedList implented the List and Deque interfaces that's it has also methods of deque 
+                offerFirst,offerLast,offer etc
+8. add() -> To add Element from Last . Returns True .
+
+9. add(index, element) -> To add element at The specified index . It does shifting while adding element at the specified index and Return IndexOutOfBoundException . Returns void
+
+10. addAll(index, Elements or ll)-> To add Some element at the specified Position.
+
+11. ll.getFirst() -> To Get the First(Occurrence) Element .
+
+12. ll.getLast() -> To Get the Last(Occurrence) Element .
+
+13. ll.remove() -> To remove Head  Element.
+
+14. ll.remove(obj) -> To remove given object(element)
+
+15. ll.remove(index) -> To remove specific Element by its index .
+
+16. ll.removeFirst() -> To remove first Position element. (index 0th). Return Removed Element
+
+17. ll.removeLast() -> To remove Last Position element. (index nth) . Return Removed Element
+
+18. ll.removeAll(collection) -> To remove all Elements from the given collection
+
+19. Collections.frequency(list, "pig") -> To count the duplicate Elements in the list .
+
+20 . pop() -> To remove element from last (tail).
+
+21. poll() -> Return Head Element .
+
+22. pollFirst() -> Return First Position element .
+
+23. pollLast() -> Return Last Position element.
+
+24. peek()  -> retrieve, but not remove, the first element of a linked list.
+
+25. peekFirst() -> retrieve, but not remove, the first element of a linked list.
+
+26. peekLast() -> retrieve, but not remove, the Last element of a linked list.
+
+27. ArrayList<String> al = new ArrayList<>(ll) -> converting LinkedList into ArrayList .
+
+28. 
